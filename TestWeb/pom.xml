@@ -62,7 +62,8 @@
 					<user>${weblogic.user}</user>
 					<password>${weblogic.password}</password>
 					<source>
-						${basedir}\target\${project.name}.${project.packaging}
+						<!-- ${basedir}\target\${project.name}.${project.packaging}-->
+						C:\.m2\repository\com\test\TestWeb\0.0.2-SNAPSHOT\TestWeb-0.0.2-SNAPSHOT.war
 					</source>
 					<name>${build.name}-${project.version}</name>
 				</configuration>
