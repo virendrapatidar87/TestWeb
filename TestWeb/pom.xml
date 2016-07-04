@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>TestWeb</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>TestWeb</name>
@@ -62,8 +62,7 @@
 					<user>${weblogic.user}</user>
 					<password>${weblogic.password}</password>
 					<source>
-						<!-- ${basedir}\target\${project.name}.${project.packaging}-->
-						C:\.m2\repository\com\test\TestWeb\0.0.2-SNAPSHOT\TestWeb-0.0.2-SNAPSHOT.war
+						${basedir}\target\${project.name}.${project.packaging}
 					</source>
 					<name>${build.name}-${project.version}</name>
 				</configuration>
