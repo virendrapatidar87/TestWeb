@@ -62,8 +62,7 @@
 					<user>${weblogic.user}</user>
 					<password>${weblogic.password}</password>
 					<source>
-						<!-- ${basedir}\target\${project.name}.${project.packaging}-->
-						C:\Program Files\Jenkins\jobs\TestWebNew\workspace\TestWeb\target\${project.name}.${project.packaging}
+						${basedir}\target\${project.name}.${project.packaging}
 					</source>
 					<name>${build.name}-${project.version}</name>
 				</configuration>
